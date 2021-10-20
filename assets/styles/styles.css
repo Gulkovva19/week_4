@@ -1,0 +1,124 @@
+img {
+    position: absolute;
+    width: 588.96px;
+    height: 764.04px;
+    left: 841.72px;
+    top: 275px;
+
+    width: 30vw;
+    height: 70vh;
+}
+
+h1 {
+    position: absolute;
+    height: 205px;
+    left: 10%;
+    right: 47.75%;
+    top: calc(50% - 205px/2 - 92.5px);
+
+    font-family: Didot;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 103px;
+
+    color: #000000;
+}
+
+h1::first-letter {
+    color: rgb(185, 74, 74);
+}
+
+#simple_caregiving {
+    font-weight: lighter;
+}
+
+#button {
+
+
+    font-family: 'Gill Sans MT', Calibri, sans-serif;
+
+    color: white;
+    background-color: #000000;
+}
+
+#button:focus {
+    background: rgb(245, 136, 128);
+}
+
+#button2 {
+    position: absolute;
+    width: 270px;
+    height: 116px;
+    left: 110px;
+    top: 985px;
+
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+
+    color: white;
+    background-color: #000000;
+}
+
+
+#lines {
+    position: absolute;
+    width: 152px;
+    height: 79px;
+    left: 761px;
+    top: 706px;
+}
+
+#number {
+    position: absolute;
+    width: 345px;
+    height: 40px;
+    left: 420px;
+    top: 1023px;
+}
+
+.about {
+    position: absolute;
+    left: 10%;
+    right: 52.56%;
+    top: 60%;
+    bottom: 37%;
+
+    font-family: Gill Sans MT;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+
+    color: #000000;
+}
+
+.about::first-line {
+    color: rgb(185, 74, 74);
+}
+
+.menu {
+    padding: 20px;
+    font-family: 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 20pt;
+    text-decoration: none;
+    color: black;
+}
+
+
+.menu:hover {
+    color: rgb(245, 101, 91)
+}
+
+.menu:active {
+    text-decoration: underline;
+    color: #f83b0b;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
